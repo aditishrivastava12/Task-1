@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.lead {
+    background-color: #EFFFF4;
+    color: #008A45;
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+    height: calc(2.25rem + 2px);
+    border: 1px solid #D9D9DB ;
+    background-color: #ededf5;
+    
+   
+
+}
+
+button .fas,
+button .fab {
+    margin-right: 5px;
+}
+
+img {
+    width: 258.16px;
+    height: 260.84px;
+    top: 20.4px;
+    left: 30.8px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+@media (max-width: 768px) {
+    .lead {
+        font-size: 14px;
+    }
+
+    .card-body {
+        padding: 2rem;
+    }
+
+    img {
+        display: none;
+    }
+}
